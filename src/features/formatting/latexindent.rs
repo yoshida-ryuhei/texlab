@@ -85,6 +85,8 @@ pub fn format_with_latexindent(
         .ok()?;
 
     let new_text = String::from_utf8_lossy(&output.stdout).into_owned();
+    log::debug!("[Latexindent]: {:?} -> {:?}", document.text, new_text);
+
     if new_text.is_empty() {
         None
     } else {
