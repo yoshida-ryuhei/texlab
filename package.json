@@ -1,0 +1,7 @@
+{
+  "name": "texlab",
+  "workspaces": [
+    "lib/tree-sitter-bibtex",
+    "lib/tree-sitter-latex"
+  ]
+}
