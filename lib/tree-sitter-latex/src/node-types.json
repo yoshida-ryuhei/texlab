@@ -1,0 +1,4727 @@
+[
+  {
+    "type": "_include",
+    "named": true,
+    "subtypes": [
+      {
+        "type": "biblatex_include",
+        "named": true
+      },
+      {
+        "type": "bibtex_include",
+        "named": true
+      },
+      {
+        "type": "class_include",
+        "named": true
+      },
+      {
+        "type": "graphics_include",
+        "named": true
+      },
+      {
+        "type": "import",
+        "named": true
+      },
+      {
+        "type": "inkscape_include",
+        "named": true
+      },
+      {
+        "type": "latex_include",
+        "named": true
+      },
+      {
+        "type": "package_include",
+        "named": true
+      },
+      {
+        "type": "svg_include",
+        "named": true
+      },
+      {
+        "type": "verbatim_include",
+        "named": true
+      }
+    ]
+  },
+  {
+    "type": "acronym_definition",
+    "named": true,
+    "fields": {
+      "abbrv": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      },
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "full": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "acronym_reference",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "begin",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "biblatex_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "glob_pattern": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_glob_pattern",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "bibtex_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block_comment",
+    "named": true,
+    "fields": {
+      "comment": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "comment",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "brack_group",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "[",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "]",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "brack_group",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "brack_group_argc",
+    "named": true,
+    "fields": {
+      "argc": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "argc",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "[",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "]",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "brack_group_key",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "key",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "[",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "]",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "brack_group_key_value",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "[",
+            "named": false
+          }
+        ]
+      },
+      "property": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "key_value_pair",
+            "named": true
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "]",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "caption",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      },
+      "list_entry": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "chapter",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "citation",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "postnote": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group",
+            "named": true
+          }
+        ]
+      },
+      "prenote": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "curly_group_key_list",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "class_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "color_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "kind": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key",
+            "named": true
+          }
+        ]
+      },
+      "model": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "spec": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_text",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "color_reference",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "color_set_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "head": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      },
+      "kind": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key",
+            "named": true
+          }
+        ]
+      },
+      "model": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key_list",
+            "named": true
+          }
+        ]
+      },
+      "spec": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      },
+      "tail": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "command",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "mixed_group",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "curly_group",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "part",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "curly_group_command_name",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_glob_pattern",
+    "named": true,
+    "fields": {
+      "glob_pattern": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "glob_pattern",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_impl",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "curly_group_key",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "key",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_key_list",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "key",
+            "named": true
+          }
+        ]
+      },
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_key_value",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "property": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "key_value_pair",
+            "named": true
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_path",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "path",
+            "named": true
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_path_list",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "path": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "path",
+            "named": true
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "curly_group_text",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "{",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "}",
+            "named": false
+          }
+        ]
+      },
+      "text": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "text",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "displayed_equation",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "command_name",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "part",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "end",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "enum_item",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "environment",
+    "named": true,
+    "fields": {
+      "begin": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "begin",
+            "named": true
+          }
+        ]
+      },
+      "end": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "end",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "part",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "environment_definition",
+    "named": true,
+    "fields": {
+      "argc": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_argc",
+            "named": true
+          }
+        ]
+      },
+      "begin": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_impl",
+            "named": true
+          }
+        ]
+      },
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "end": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_impl",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "glob_pattern",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "glossary_entry_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "properties": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "glossary_entry_reference",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "graphics_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "import",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "directory": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      },
+      "file": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "inkscape_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "inline_formula",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "command_name",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "part",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "key",
+    "named": true,
+    "fields": {
+      "word": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "word",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "key_value_pair",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "key",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "label_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "label_number",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "number": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "label_reference",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "names": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key_list",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "label_reference_range",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name_hi": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "name_lo": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "latex_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "let_command_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "declaration": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "implementation": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "math_set",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "part",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "mixed_group",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": "[",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": "]",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "mixed_group",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "new_command_definition",
+    "named": true,
+    "fields": {
+      "argc": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_argc",
+            "named": true
+          }
+        ]
+      },
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "declaration": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_command_name",
+            "named": true
+          }
+        ]
+      },
+      "implementation": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "old_command_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "declaration": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "package_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "paths": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path_list",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "part",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "section",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "chapter",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "part",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsection",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "subparagraph",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "subsection",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "subsubsection",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "subsubsection",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "block_comment",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "enum_item",
+          "named": true
+        },
+        {
+          "type": "environment",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "math_set",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "paragraph",
+          "named": true
+        },
+        {
+          "type": "subparagraph",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "svg_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "text",
+    "named": true,
+    "fields": {
+      "word": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "word",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "theorem_definition",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "counter": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key",
+            "named": true
+          }
+        ]
+      },
+      "heading": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "curly_group",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "tikz_library_import",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_key",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "_include",
+          "named": true
+        },
+        {
+          "type": "acronym_definition",
+          "named": true
+        },
+        {
+          "type": "acronym_reference",
+          "named": true
+        },
+        {
+          "type": "brack_group",
+          "named": true
+        },
+        {
+          "type": "caption",
+          "named": true
+        },
+        {
+          "type": "citation",
+          "named": true
+        },
+        {
+          "type": "color_definition",
+          "named": true
+        },
+        {
+          "type": "color_reference",
+          "named": true
+        },
+        {
+          "type": "color_set_definition",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "curly_group",
+          "named": true
+        },
+        {
+          "type": "displayed_equation",
+          "named": true
+        },
+        {
+          "type": "environment_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_definition",
+          "named": true
+        },
+        {
+          "type": "glossary_entry_reference",
+          "named": true
+        },
+        {
+          "type": "inline_formula",
+          "named": true
+        },
+        {
+          "type": "label_definition",
+          "named": true
+        },
+        {
+          "type": "label_number",
+          "named": true
+        },
+        {
+          "type": "label_reference",
+          "named": true
+        },
+        {
+          "type": "label_reference_range",
+          "named": true
+        },
+        {
+          "type": "let_command_definition",
+          "named": true
+        },
+        {
+          "type": "macro_parameter",
+          "named": true
+        },
+        {
+          "type": "new_command_definition",
+          "named": true
+        },
+        {
+          "type": "old_command_definition",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "theorem_definition",
+          "named": true
+        },
+        {
+          "type": "tikz_library_import",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "verbatim_include",
+    "named": true,
+    "fields": {
+      "command_name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "command_name",
+            "named": true
+          }
+        ]
+      },
+      "options": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "brack_group_key_value",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "curly_group_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "$",
+    "named": false
+  },
+  {
+    "type": "$$",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "argc",
+    "named": true
+  },
+  {
+    "type": "command_name",
+    "named": true
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "line_comment",
+    "named": true
+  },
+  {
+    "type": "macro_parameter",
+    "named": true
+  },
+  {
+    "type": "path",
+    "named": true
+  },
+  {
+    "type": "word",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]
