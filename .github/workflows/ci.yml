@@ -26,12 +26,13 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
       - name: Install dependencies
         run: npm install
       - name: Test
         run: npm test --workspaces
+
   coverage:
     name: Code Coverage
     runs-on: ubuntu-latest
