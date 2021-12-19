@@ -1,11 +1,11 @@
 [workspace]
 members = ["crates/*"]
+resolver = "2"
 
 [profile.dev.package]
 # TODO: Enable optimized builds for a selected set of crates for faster tests
 
-[profile.release]
+[profile.production]
+inherits = "release"
 lto = true
-
-[profile.bench]
-lto = false
+codegen-units = 1
