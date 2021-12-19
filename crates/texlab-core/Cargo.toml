@@ -1,0 +1,20 @@
+[package]
+name = "texlab-core"
+description = "LaTeX Language Server"
+version = "3.3.1"
+license = "GPL-3.0"
+readme = "README.md"
+authors = [
+    "Eric Förster <eric.foerster@outlook.com>",
+    "Patrick Förster <patrick.foerster@outlook.de>",
+]
+edition = "2018"
+homepage = "https://github.com/latex-lsp/texlab"
+
+[features]
+
+[dependencies]
+
+[dev-dependencies]
+
+[build-dependencies]
