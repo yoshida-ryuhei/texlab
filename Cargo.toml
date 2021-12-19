@@ -5,7 +5,9 @@ resolver = "2"
 [profile.dev.package]
 # TODO: Enable optimized builds for a selected set of crates for faster tests
 
-[profile.production]
-inherits = "release"
-lto = true
-codegen-units = 1
+# Uncomment this once we bump the MSRV to Rust 1.57:
+#
+# [profile.production]
+# inherits = "release"
+# lto = true
+# codegen-units = 1
