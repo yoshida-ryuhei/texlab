@@ -2178,6 +2178,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "tree-sitter-bibtex"
+version = "0.0.1"
+dependencies = [
+ "cc",
+ "tree-sitter",
+]
+
+[[package]]
 name = "tree-sitter-latex"
 version = "0.0.1"
 dependencies = [
